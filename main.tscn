@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://dnedivjyoqi5s" path="res://icon.svg" id="1_ig7tw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0xm2m"]
-size = Vector2(125.5, 123.5)
+size = Vector2(128.75, 128.75)
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_h2yge")
@@ -14,11 +14,11 @@ script = ExtResource("1_h2yge")
 script = ExtResource("1_0xm2m")
 
 [node name="Sprite2D" type="Sprite2D" parent="player"]
-position = Vector2(108, 584)
+position = Vector2(65, 1015)
 texture = ExtResource("1_ig7tw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="player"]
-position = Vector2(107.25, 584)
+position = Vector2(64.625, 1015.38)
 shape = SubResource("RectangleShape2D_0xm2m")
 
 [node name="Timer" type="Timer" parent="."]
